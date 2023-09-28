@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cpme4euttv5y3"]
+
+[ext_resource type="Texture2D" uid="uid://xw0bp1620wmb" path="res://assets/The Great Nebula in Carina.jpg" id="1_53p2n"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_53p2n")
