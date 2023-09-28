@@ -1,3 +1,6 @@
+# ignora assets para diminuir tamanho do repo
+*assets*
+
 # Godot 4+ specific ignores
 .godot/
 
