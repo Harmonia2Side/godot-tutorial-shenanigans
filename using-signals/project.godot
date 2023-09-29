@@ -10,11 +10,11 @@ config_version=5
 
 [application]
 
-config/name="Using-signals"
-config/features=PackedStringArray("4.1", "GL Compatibility")
+config/name="using-signals"
+run/main_scene="res://node_2d.tscn"
+config/features=PackedStringArray("4.1", "Mobile")
 config/icon="res://icon.svg"
 
 [rendering]
 
-renderer/rendering_method="gl_compatibility"
-renderer/rendering_method.mobile="gl_compatibility"
+renderer/rendering_method="mobile"
