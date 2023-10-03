@@ -32,3 +32,5 @@ position = Vector2(240, 450)
 curve = SubResource("Curve2D_gdtwo")
 
 [node name="MobSpawnLocation" type="PathFollow2D" parent="MobPath"]
+
+[node name="Node" type="Node" parent="."]
