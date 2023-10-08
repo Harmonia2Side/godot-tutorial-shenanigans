@@ -10,7 +10,7 @@ var screen_size			# Tamanho da janela de jogo
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	screen_size = get_viewport_rect().size
-#	hide()
+	hide()
 #	var player = get_node(".")
 	# player.body_entered.connect(on_body_entered)
 	
