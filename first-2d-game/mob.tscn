@@ -49,20 +49,22 @@ radius = 36.0113
 height = 101.987
 
 [node name="Mob" type="RigidBody2D"]
-position = Vector2(241, 359)
+position = Vector2(248, 370)
 collision_mask = 0
 gravity_scale = 0.0
 script = ExtResource("1_av7ix")
 metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-1, 1)
 scale = Vector2(0.75, 0.75)
 sprite_frames = SubResource("SpriteFrames_cpj5y")
-animation = &"walk"
-frame_progress = 0.857913
+animation = &"fly"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, 0)
 rotation = 1.55509
 shape = SubResource("CapsuleShape2D_ottbr")
 
 [node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+position = Vector2(-1, -1)
