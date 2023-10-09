@@ -22,14 +22,15 @@ func game_over():
 	$MobTimer.stop()
 	$HUD.show_game_over()
 	
+	
 func new_game():
-#	var hud = $HUD # Extra: para habilitar autocomplete (?)
 	score = 0
 	$HUD.update_score(score)
 	$HUD.show_message("Get Ready")
 	
 	$Player.start($StartPosition.position)
 	$StartTimer.start()
+	get_tree().call_group("mobs", "queue_free")
 
 func _on_score_timer_timeout():
 	score += 1
